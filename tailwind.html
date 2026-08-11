@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind start</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+      <h1 class="text-[#030712] bg-green-500 text-center animate-pulse duration-700 text-xl font-bold shadow-2xl shadow-red-700">Hello world</h1>
+      <!-- margininline - mx , margin-block my mr-marginright , ml , mt , mb  -->
+       <!-- padding inline - px , padding-block - py , pr , pb, pl ,pt  -->
+        <!-- border , border-color-opacity , rounded  -->
+      <p class=" border-[5px] px-5 py-10 rounded-l-xl border-orange-700 mx-10 my-10 shadow-2xl shadow-slate-800 bg-slate-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates quibusdam quod non est esse harum ex fuga quidem optio ducimus autem et molestiae, quia, nostrum cupiditate accusamus cum aut ipsum?</p>
+
+      <!-- Display  -->
+       <h2 class="inline text-center">Tailwind is fun</h2>
+       <span class="block text-center">Inline transformed</span>
+
+       <div class="flex items-center justify-between">
+            <!-- <a href="">Home</a>
+            <a href="">About Us</a> -->
+            <p>Home</p>
+            <p>About Us</p>
+       </div>
+       <h3 class="hover:text-purple-700 bg-yellow-200 hover:bg-lime-400 hover:-translate-y-2 transition duration-300 ease-in active:bg-red-600">Lets try some psuedo class</h3>
+
+       <!-- group hover  -->
+    <div class="relative group animate-bounce">
+        <button class="bg-slate-800 text-white px-3 py-2 rounded-xl  group-hover:bg-green-600">Click me</button>
+        <small class="absolute top-0 bg-green-600 text-white px-2 rounded-full text-[8px] py-1 left-10 -translate-y-2 group-hover:rotate-45 group-hover:bg-slate-800">Don't Click</small>
+    </div>
+
+
+  </body>
+</html>

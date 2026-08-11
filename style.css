@@ -1,0 +1,34 @@
+h1{
+    color: rgba(35, 13, 56, 0.5) /* 0-255 red green blue opacity 0-1*/;
+    /* color: rgb(red, green, blue); */
+    background-color: bisque;
+}
+p{
+    color: #FF6900; /* 0-9, A-F*/
+}
+.title1{
+    text-align: center;
+    text-shadow: 3px 3px 6px red;/*x-axis y-axis spread color*/
+    font-weight: 900;
+
+}
+.title{
+    text-align: center; /* DOesnt work in inline elements*/
+    text-decoration: line-through  ;
+    text-transform: uppercase; /* uppercase lowercase capitalize*/
+    word-spacing: 20px;
+    letter-spacing: 20px;
+}
+.title{
+    font-size: 50;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-style: italic;
+}
+.paragraph{
+    text-align: center;
+    line-height: 25px;
+}
+span{
+    text-align: center;
+}

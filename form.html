@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <h1>Form</h1>
+    <form action="#">
+      <label for="name">Name</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        minlength="2"
+        maxlength="20"
+        placeholder="Eg: Sanskar Shrestha"
+        required
+      />
+      <label for="int">Number</label>
+      <input type="number" id="int" name="num" min="2" max="10" required />
+      <br />
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" />
+      <label for="">Telephone</label>
+      <input type="tel" />
+      <br />
+      <input type="color" />
+      <input type="date" />
+      <input type="time" />
+      <input type="search" list="animals" />
+      <datalist id="animals">
+        <option value="Dog"></option>
+        <option value="Cat"></option>
+        <option value="Mouse"></option>
+      </datalist>
+      <br />
+      <input type="datetime-local" />
+      <br />
+      <label for="gender">Gender</label>
+      <label for="male">Male</label>
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="female">Female</label>
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="others">Others</label>
+      <input type="radio" id="others" name="gender" value="others" />
+      <br />
+      <label for="course">Courses</label>
+      <label for="laravel">Laravel</label>
+      <input type="checkbox" name="courses" id="laravel" value="laravel" />
+      <label for="mern">MERN</label>
+      <input type="checkbox" name="courses" id="mern" value="mern" />
+      <label for="python">Python</label>
+      <input type="checkbox" name="courses" id="python" value="Python" />
+
+      <br />
+      <label for="des">Description</label>
+      <textarea name="des" id="des" rows="10" cols="50"></textarea>
+
+      <br />
+      <label for="electronics">Electronics</label>
+      <select name="electronic" id="electronic">
+          <option value="" disabled selected>Select a type</option>
+          <optgroup label="Daily use">
+          <option value="mobile">Mobile</option>
+          <option value="laptop">Laptop</option>
+          <option value="earphone">Earphone</option>
+          <option value="keyboard">Keyboard</option>
+        </optgroup>
+           <optgroup label="sometimes use">
+          <option value="charger">charger</option>
+          <option value="watch">watch</option>
+        </optgroup>
+      </select>
+      
+      <br>
+      <label for="">Upload an Image</label>
+      <input type="file" name="" id="" multiple>
+      <button type="submit">Submit Form</button>
+      
+    </form>
+  </body>
+</html>

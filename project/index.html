@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+      integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <style>
+    :root {
+      --primary: #3b933f;
+      --secondary: #0d2b1f;
+      --text: #99999e;
+    }
+    .container {
+      width: 86%;
+      margin: auto;
+    }
+    button{
+        cursor: pointer;
+    }
+  </style>
+  <body>
+    <header class="py-4 shadow-lg sticky top-0 bg-white z-50">
+      <div class="container"> 
+        <div class="flex justify-between">
+          <img class="h-10" src="/project/codeitlogo.png" alt="" />
+          <div class="flex gap-10">
+            <div class="flex items-center group">
+              <i class="fa-solid fa-headset group-hover:text-(--primary) duration-300"></i>
+              <div class="flex flex-col">
+                <p class="text-center group-hover:text-(--primary) duration-300 font-semibold">Enquiry</p>
+                <small>+977-25-575163</small>
+              </div>
+            </div>
+            <div class="flex items-center group">
+              <i class="fa-solid fa-phone group-hover:text-(--primary) duration-300"></i>
+              <div class="flex flex-col">
+                <p class="text-center capitalize group-hover:text-(--primary) duration-300 font-semibold">Technical support</p>
+                <small>+977-9704508525</small>
+              </div>
+            </div>
+            <div class="flex items-center group">
+              <i class="fa-brands fa-whatsapp group-hover:text-(--primary) duration-300"></i>
+              <div class="flex flex-col">
+                <p class="text-center group-hover:text-(--primary) duration-300 font-semibold">Community</p>
+                <small>+977-9862130505</small>
+              </div>
+            </div>
+          </div>
+          <div class="flex items-center gap-5">
+            <div class="relative">
+            <input class="border border-(--text) rounded-full px-7 py-1 foucs:border-none focus:outline-(--primary)" type="search" placeholder="Search Courses...."/>
+            <i class="fa-solid fa-magnifying-glass absolute left-1 top-2 text-(--text) "></i>
+            </div>
+            <button class="text-(--primary) font-semibold bg-(--primary)/20 px-2 py-1 rounded-lg hover:bg-(--secondary) duration-300 "><i class="fa-solid fa-right-to-bracket "></i>Login</button>
+          </div>
+        </div>
+        <div class="h-[1px] bg-gray-300 my-4">
+
+        </div>
+        <nav class="flex items-center gap-10 font-semibold">
+            <a class="hover:text-(--primary) duration-300" href="">Home</a>
+            <a class="hover:text-(--primary) duration-300" href="">All Courses</a>
+            <a href="" class="bg-(--primary) text-white capitalize px-2 text-sm rounded-full font-semibold"><i class="fa-regular fa-clock fa-sm "></i>upcoming classes</a>
+            <a class="hover:text-(--primary) duration-300" href="">Testimonials</a>
+            <a class="hover:text-(--primary) duration-300" href="">Mentors</a>
+            <a class="hover:text-(--primary) duration-300" href="">Recorded Videos</a>
+            <a class="hover:text-(--primary) duration-300" href="">Contact Us</a>
+            <div class="relative group">
+                <a href=" " class="border border-(--primary) p-1 px-3 text-(--primary) group-hover:text-white  group-hover:bg-(--secondary) duration-300 rounded-full">Compiler</a>
+                <small class="absolute top-0 right-0  group-hover:bg-(--secondary) duration-300 -translate-y-3 bg-(--primary) px-2 text-white rounded-full font-semibold translate-x-2">Beta</small>
+            </div>
+        </nav>
+      </div>
+    </header>
+
+    <section class="py-4">
+        <div class="container">
+            <div class="grid grid-cols-2 gap-5">
+                <div class="space-y-5">
+                 
+                      <span class="inline-block mt-5 text-(--primary) bg-(--primary)/20 px-3 py-1 font-semibold rounded-full">Quality Education Without Financial Barriers</span>
+                    <h1 class="font-bold text-6xl">Nepal's Most Affordable IT Training</h1>
+                    <p>Live + Recorded | Job-Focused | Career Ready</p>
+                    <p class="text-lg">Get job-ready with live classes, lifetime access, and a guaranteed internship - all for less than Rs.2,500.</p>
+                 
+                    <div class="grid grid-cols-2 gap-3 space-y-3">
+                        <div class="flex items-center gap-3 justify-center py-1 border border-(--text)/30 rounded-xl">
+                            <i class="fa-solid fa-graduation-cap text-(--primary) fa-xl"></i>
+                            <div>
+                                <p class="text-xl font-semibold">100K+</p>
+                                <p>Student Trained</p>
+                            </div>
+                        </div>
+                          <div class="flex items-center gap-3 justify-center py-1 border border-(--text)/30 rounded-xl">
+                            <i class="fa-solid fa-headset text-(--primary) fa-xl"></i>
+                            <div>
+                                <p class="text-xl font-semibold">Lifetime</p>
+                                <p>Access & Support</p>
+                            </div>
+                        </div>  <div class="flex items-center gap-3 justify-center py-1 border border-(--text)/30 rounded-xl">
+                            <i class="fa-solid fa-video text-(--primary) fa-xl"></i>
+                            <div>
+                                <p class="text-xl font-semibold">Live &</p>
+                                <p>Recorded Video</p>
+                            </div>
+                        </div>  <div class="flex items-center gap-3 justify-center py-1 border border-(--text)/30 rounded-xl">
+                            <i class="fa-solid fa-star text-(--primary) fa-xl"></i>
+                            <div>
+                                <p class="text-xl font-semibold">4.8</p>
+                                <p>Google Ratings</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <button class="text-white w-[50%] animate-bounce bg-(--primary) py-3 rounded-lg font-semibold ">View upcoming batches <i class="fa-solid fa-arrow-right"></i></button>
+                        <button class="border border-(--text) w-[50%] animate-bounce  py-3 rounded-lg font-semibold hover:text-(--primary) hover:border-(--primary) duration-300"><i class="fa-solid fa-book"></i>Browse all courses</button>
+                    </div>
+                   
+                   
+                </div>
+                <div>
+                    <img src="https://codeit.com.np/storage/01KKTNYQAQHRD8910BR5XM127H.avif" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+  </body>
+</html>

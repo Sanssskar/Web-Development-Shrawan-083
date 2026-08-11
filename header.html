@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code IT</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+      integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    :root{
+        --primary :#FF6900;
+        --secondary :#FEEEE5;
+    }
+    html{
+        font-family: "Roboto";
+    }
+    .container {
+      width: 86%;
+      margin: auto;
+    }
+    header{
+        padding-block: 1rem;
+        box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.2);
+    }
+    .top-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .logo {
+      width: 190px;
+    }
+    .coms{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+    .coms-item {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 0.9rem;
+    }
+    .number{
+        font-size: 0.8rem;
+    }
+    input{
+        padding: 0.5rem;
+        padding-inline: 1.7rem;
+        border-radius: 50px;
+        border: 1px solid gray;
+    }
+    input:focus{
+        border: none;
+        outline: 2px solid var(--primary);
+    }
+    .search{
+        position: relative;
+        display: flex;
+        gap: 20px;
+    }
+    .search-icon{
+        position: absolute;
+        left: 5px;
+        bottom: 10px;
+        color : gray;
+
+    }
+    .login-btn{
+        color: var(--primary);
+        background-color: var(--secondary);
+        padding-inline: 10px;
+        padding-block: 5px;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+    .divider{
+        height: 1px;
+        background-color: rgb(183, 164, 164);
+        margin-block: 0.9rem;
+
+    }
+    .nav-links{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+    .nav-items{
+        text-decoration: none;
+       font-size: 1.1rem;
+       color: black;
+    }
+    .nav-items:hover{
+      color: var(--primary);
+      transition: 0.3s ;
+    }
+    .nav-items:nth-child(3){
+        background-color: var(--primary);
+        color: white;
+        font-size: 0.9rem;
+        padding-inline: 0.8rem;
+        border-radius: 50px;
+        font-weight: 500;
+    }
+    .compiler{
+        position: relative;
+    }
+    .compiler a{
+        border: 1px solid var(--primary);
+        padding: 0.3rem;
+        padding-inline: 1rem;
+        border-radius: 50px;
+        color: var(--primary);
+    }
+    .beta{
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: var(--primary);
+        color: white;
+        padding-inline: 0.5rem;
+        border-radius: 50px;
+        font-size: 0.7rem;
+        transform: translate(10px,-10px);
+    }
+  </style>
+  <body>
+    <header>
+      <div class="container">
+        <div class="top-bar">
+          <img
+            class="logo"
+            src="https://codeit.com.np/storage/01KK0WD02GQYECHKK844MYEHN3.png"
+            alt="CodeIT Logo"
+          />
+          <div class="coms">
+            <div class="coms-item">
+              <i class="fa-solid fa-headset fa-lg"></i>
+              <div>
+                <p style="text-align: center; margin-bottom: 2px;">Enquiry</p>
+                <p class="number" style="color: rgb(99, 95, 95)">+977-25-575163</p>
+              </div>
+            </div>
+             <div class="coms-item">
+              <i class="fa-solid fa-phone fa-lg"></i>
+              <div>
+                <p style="text-align: center; margin-bottom: 2px;">Technical Support</p>
+                <p class="number" style="color: rgb(99, 95, 95)">+977-9704508525</p>
+              </div>
+            </div>
+             <div class="coms-item">
+              <i class="fa-brands fa-whatsapp fa-lg"></i>
+              <div>
+                <p style="text-align: center; margin-bottom: 2px;">Community</p>
+                <p class="number" style="color: rgb(99, 95, 95)">+977-9862130505</p>
+              </div>
+            </div>
+          </div>
+          <div class="search">
+            <input type="search" placeholder="Search Courses..."/>
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            <a class="login-btn" href=""><i style="margin-right: 5px;" class="fa-solid fa-right-to-bracket fa-xs"></i>Login</a>
+          </div>
+        </div>
+        <div class="divider">
+
+        </div>
+        <nav>
+          <div class="nav-links">
+            <a class="nav-items" href="">Home</a>
+            <a class="nav-items" href="">All Courses</a>
+            <a class="nav-items" href=""><i style="margin-right: 4px;" class="fa-regular fa-clock fa-xs"></i>Upcoming classes</a>
+            <a class="nav-items" href="">Testimonials</a>
+            <a class="nav-items" href="">Mentors</a>
+            <a class="nav-items" href="">Recorded Videos</a>
+            <a class="nav-items" href="">Contact us</a>
+            <div class="compiler">
+              <a class="nav-items " href="">Compiler</a>
+              <small class="beta">Beta</small>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+  </body>
+</html>

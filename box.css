@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 50px;
+}
+.parent{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /*Cross -axis alignment*/
+    justify-content: center;/* Main axis alignment*/
+}
+.child{
+    height: 200px;
+    width: 200px;
+    background-color: rebeccapurple;
+    border: 1px solid ;
+}
+/* Units- px(pixel), em(relative to parent) , rem(relative to root html/body),vh(view-height),vw(view-width),%
+in(inch) ,cm  */
+.par{
+    background-color: aqua;
+    font-size: 20px;
+    /* height: 100vh; */
+    width: 25%;
+}
+.title{
+    font-size: 1rem;
+    font-size: 50px;
+
+}
+/* rem: font-size,margin,padding,gap  */
+/* px:border border-radius, top,left,right,bottom, shadow  */
+.btn{
+    background-color: bisque;
+    padding-inline: 1rem;
+    padding-block: 0.5rem;
+}
+/* pseudo class : hover, active , focus ,required,disabled ,nth child  */
+.btn:hover{
+    background-color: aquamarine;
+    color: red;
+    /* font-size: 2rem; */
+}
+.btn:active{
+    background-color: chartreuse;
+    color: blanchedalmond;
+}
+input:focus{
+    border: none;
+    outline: 1px solid red;
+    border-radius: 50px;
+}
+/* input:required{
+    background-color: red;
+}
+input:disabled{
+    background-color: blue;
+} */
