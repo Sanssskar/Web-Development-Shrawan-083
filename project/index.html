@@ -17,119 +17,607 @@
     :root {
       --primary: #3b933f;
       --secondary: #0d2b1f;
-      --text: #99999e;
+      --text: #797982;
     }
     .container {
       width: 86%;
       margin: auto;
     }
-    button{
-        cursor: pointer;
+    button {
+      cursor: pointer;
     }
   </style>
   <body>
     <header class="py-4 shadow-lg sticky top-0 bg-white z-50">
-      <div class="container"> 
+      <div class="container">
         <div class="flex justify-between">
           <img class="h-10" src="/project/codeitlogo.png" alt="" />
           <div class="flex gap-10">
             <div class="flex items-center group">
-              <i class="fa-solid fa-headset group-hover:text-(--primary) duration-300"></i>
+              <i
+                class="fa-solid fa-headset group-hover:text-(--primary) duration-300"
+              ></i>
               <div class="flex flex-col">
-                <p class="text-center group-hover:text-(--primary) duration-300 font-semibold">Enquiry</p>
+                <p
+                  class="text-center group-hover:text-(--primary) duration-300 font-semibold"
+                >
+                  Enquiry
+                </p>
                 <small>+977-25-575163</small>
               </div>
             </div>
             <div class="flex items-center group">
-              <i class="fa-solid fa-phone group-hover:text-(--primary) duration-300"></i>
+              <i
+                class="fa-solid fa-phone group-hover:text-(--primary) duration-300"
+              ></i>
               <div class="flex flex-col">
-                <p class="text-center capitalize group-hover:text-(--primary) duration-300 font-semibold">Technical support</p>
+                <p
+                  class="text-center capitalize group-hover:text-(--primary) duration-300 font-semibold"
+                >
+                  Technical support
+                </p>
                 <small>+977-9704508525</small>
               </div>
             </div>
             <div class="flex items-center group">
-              <i class="fa-brands fa-whatsapp group-hover:text-(--primary) duration-300"></i>
+              <i
+                class="fa-brands fa-whatsapp group-hover:text-(--primary) duration-300"
+              ></i>
               <div class="flex flex-col">
-                <p class="text-center group-hover:text-(--primary) duration-300 font-semibold">Community</p>
+                <p
+                  class="text-center group-hover:text-(--primary) duration-300 font-semibold"
+                >
+                  Community
+                </p>
                 <small>+977-9862130505</small>
               </div>
             </div>
           </div>
           <div class="flex items-center gap-5">
             <div class="relative">
-            <input class="border border-(--text) rounded-full px-7 py-1 foucs:border-none focus:outline-(--primary)" type="search" placeholder="Search Courses...."/>
-            <i class="fa-solid fa-magnifying-glass absolute left-1 top-2 text-(--text) "></i>
+              <input
+                class="border border-(--text) rounded-full px-7 py-1 foucs:border-none focus:outline-(--primary)"
+                type="search"
+                placeholder="Search Courses...."
+              />
+              <i
+                class="fa-solid fa-magnifying-glass absolute left-1 top-2 text-(--text)"
+              ></i>
             </div>
-            <button class="text-(--primary) font-semibold bg-(--primary)/20 px-2 py-1 rounded-lg hover:bg-(--secondary) duration-300 "><i class="fa-solid fa-right-to-bracket "></i>Login</button>
+            <button
+              class="text-(--primary) font-semibold bg-(--primary)/20 px-2 py-1 rounded-lg hover:bg-(--secondary) duration-300"
+            >
+              <i class="fa-solid fa-right-to-bracket"></i>Login
+            </button>
           </div>
         </div>
-        <div class="h-[1px] bg-gray-300 my-4">
-
-        </div>
+        <div class="h-[1px] bg-gray-300 my-4"></div>
         <nav class="flex items-center gap-10 font-semibold">
-            <a class="hover:text-(--primary) duration-300" href="">Home</a>
-            <a class="hover:text-(--primary) duration-300" href="">All Courses</a>
-            <a href="" class="bg-(--primary) text-white capitalize px-2 text-sm rounded-full font-semibold"><i class="fa-regular fa-clock fa-sm "></i>upcoming classes</a>
-            <a class="hover:text-(--primary) duration-300" href="">Testimonials</a>
-            <a class="hover:text-(--primary) duration-300" href="">Mentors</a>
-            <a class="hover:text-(--primary) duration-300" href="">Recorded Videos</a>
-            <a class="hover:text-(--primary) duration-300" href="">Contact Us</a>
-            <div class="relative group">
-                <a href=" " class="border border-(--primary) p-1 px-3 text-(--primary) group-hover:text-white  group-hover:bg-(--secondary) duration-300 rounded-full">Compiler</a>
-                <small class="absolute top-0 right-0  group-hover:bg-(--secondary) duration-300 -translate-y-3 bg-(--primary) px-2 text-white rounded-full font-semibold translate-x-2">Beta</small>
-            </div>
+          <a class="hover:text-(--primary) duration-300" href="">Home</a>
+          <a class="hover:text-(--primary) duration-300" href="">All Courses</a>
+          <a
+            href=""
+            class="bg-(--primary) text-white capitalize px-2 text-sm rounded-full font-semibold"
+            ><i class="fa-regular fa-clock fa-sm"></i>upcoming classes</a
+          >
+          <a class="hover:text-(--primary) duration-300" href=""
+            >Testimonials</a
+          >
+          <a class="hover:text-(--primary) duration-300" href="">Mentors</a>
+          <a class="hover:text-(--primary) duration-300" href=""
+            >Recorded Videos</a
+          >
+          <a class="hover:text-(--primary) duration-300" href="">Contact Us</a>
+          <div class="relative group">
+            <a
+              href=" "
+              class="border border-(--primary) p-1 px-3 text-(--primary) group-hover:text-white group-hover:bg-(--secondary) duration-300 rounded-full"
+              >Compiler</a
+            >
+            <small
+              class="absolute top-0 right-0 group-hover:bg-(--secondary) duration-300 -translate-y-3 bg-(--primary) px-2 text-white rounded-full font-semibold translate-x-2"
+              >Beta</small
+            >
+          </div>
         </nav>
       </div>
     </header>
 
     <section class="py-4">
-        <div class="container">
-            <div class="grid grid-cols-2 gap-5">
-                <div class="space-y-5">
-                 
-                      <span class="inline-block mt-5 text-(--primary) bg-(--primary)/20 px-3 py-1 font-semibold rounded-full">Quality Education Without Financial Barriers</span>
-                    <h1 class="font-bold text-6xl">Nepal's Most Affordable IT Training</h1>
-                    <p>Live + Recorded | Job-Focused | Career Ready</p>
-                    <p class="text-lg">Get job-ready with live classes, lifetime access, and a guaranteed internship - all for less than Rs.2,500.</p>
-                 
-                    <div class="grid grid-cols-2 gap-3 space-y-3">
-                        <div class="flex items-center gap-3 justify-center py-1 border border-(--text)/30 rounded-xl">
-                            <i class="fa-solid fa-graduation-cap text-(--primary) fa-xl"></i>
-                            <div>
-                                <p class="text-xl font-semibold">100K+</p>
-                                <p>Student Trained</p>
-                            </div>
-                        </div>
-                          <div class="flex items-center gap-3 justify-center py-1 border border-(--text)/30 rounded-xl">
-                            <i class="fa-solid fa-headset text-(--primary) fa-xl"></i>
-                            <div>
-                                <p class="text-xl font-semibold">Lifetime</p>
-                                <p>Access & Support</p>
-                            </div>
-                        </div>  <div class="flex items-center gap-3 justify-center py-1 border border-(--text)/30 rounded-xl">
-                            <i class="fa-solid fa-video text-(--primary) fa-xl"></i>
-                            <div>
-                                <p class="text-xl font-semibold">Live &</p>
-                                <p>Recorded Video</p>
-                            </div>
-                        </div>  <div class="flex items-center gap-3 justify-center py-1 border border-(--text)/30 rounded-xl">
-                            <i class="fa-solid fa-star text-(--primary) fa-xl"></i>
-                            <div>
-                                <p class="text-xl font-semibold">4.8</p>
-                                <p>Google Ratings</p>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div class="flex items-center gap-3">
-                        <button class="text-white w-[50%] animate-bounce bg-(--primary) py-3 rounded-lg font-semibold ">View upcoming batches <i class="fa-solid fa-arrow-right"></i></button>
-                        <button class="border border-(--text) w-[50%] animate-bounce  py-3 rounded-lg font-semibold hover:text-(--primary) hover:border-(--primary) duration-300"><i class="fa-solid fa-book"></i>Browse all courses</button>
-                    </div>
-                   
-                   
-                </div>
+      <div class="container">
+        <div class="grid grid-cols-2 gap-5">
+          <div class="space-y-5">
+            <span
+              class="inline-block mt-5 text-(--primary) bg-(--primary)/20 px-3 py-1 font-semibold rounded-full"
+              >Quality Education Without Financial Barriers</span
+            >
+            <h1 class="font-bold text-6xl">
+              Nepal's Most Affordable IT Training
+            </h1>
+            <p>Live + Recorded | Job-Focused | Career Ready</p>
+            <p class="text-lg">
+              Get job-ready with live classes, lifetime access, and a guaranteed
+              internship - all for less than Rs.2,500.
+            </p>
+
+            <div class="grid grid-cols-2 gap-3 space-y-3">
+              <div
+                class="flex items-center gap-3 justify-center py-1 border border-(--text)/30 rounded-xl"
+              >
+                <i
+                  class="fa-solid fa-graduation-cap text-(--primary) fa-xl"
+                ></i>
                 <div>
-                    <img src="https://codeit.com.np/storage/01KKTNYQAQHRD8910BR5XM127H.avif" alt="">
+                  <p class="text-xl font-semibold">100K+</p>
+                  <p>Student Trained</p>
+                </div>
+              </div>
+              <div
+                class="flex items-center gap-3 justify-center py-1 border border-(--text)/30 rounded-xl"
+              >
+                <i class="fa-solid fa-headset text-(--primary) fa-xl"></i>
+                <div>
+                  <p class="text-xl font-semibold">Lifetime</p>
+                  <p>Access & Support</p>
+                </div>
+              </div>
+              <div
+                class="flex items-center gap-3 justify-center py-1 border border-(--text)/30 rounded-xl"
+              >
+                <i class="fa-solid fa-video text-(--primary) fa-xl"></i>
+                <div>
+                  <p class="text-xl font-semibold">Live &</p>
+                  <p>Recorded Video</p>
+                </div>
+              </div>
+              <div
+                class="flex items-center gap-3 justify-center py-1 border border-(--text)/30 rounded-xl"
+              >
+                <i class="fa-solid fa-star text-(--primary) fa-xl"></i>
+                <div>
+                  <p class="text-xl font-semibold">4.8</p>
+                  <p>Google Ratings</p>
+                </div>
+              </div>
+            </div>
+            <div class="flex items-center gap-3">
+              <button
+                class="text-white w-[50%] animate-bounce bg-(--primary) py-3 rounded-lg font-semibold"
+              >
+                View upcoming batches <i class="fa-solid fa-arrow-right"></i>
+              </button>
+              <button
+                class="border border-(--text) w-[50%] hover:-translate-y-3 hover:scale-105 py-3 rounded-lg font-semibold hover:text-(--primary) hover:border-(--primary) duration-300"
+              >
+                <i class="fa-solid fa-book"></i>Browse all courses
+              </button>
+            </div>
+          </div>
+          <div>
+            <img
+              src="https://codeit.com.np/storage/01KKTNYQAQHRD8910BR5XM127H.avif"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-[#F9F9FA] py-4">
+      <div class="container">
+        <div class="space-y-7">
+          <div>
+            <h2 class="text-2xl font-bold">New Batch Starting Soon</h2>
+            <p class="italic text-(--text)">
+              Join the live class on Google Meet.
+            </p>
+          </div>
+          <div class="grid grid-cols-4 gap-5">
+            <div
+              class="relative shadow-gray-300 shadow p-8 rounded-xl bg-white"
+            >
+              <div class="space-y-2">
+                <h3 class="text-lg font-semibold">Advance Excel</h3>
+                <p>
+                  📅 Batch starts:
+                  <span class="font-bold">August 13, 2026</span>
+                </p>
+                <div>
+                  <span class="font-semibold">Rs. 1,999 </span>
+                  <span class="line-through text-(--text) text-sm"
+                    >Rs. 12,500</span
+                  >
+                  <span class="bg-green-200 px-1 text-green-900">84% off</span>
+                </div>
+              </div>
+              <span
+                class="text-(--primary) font-semibold bg-(--primary)/20 rounded-full px-2 py-1 text-sm -translate-y-3 -translate-x-5 absolute top-0 right-0"
+              >
+                <i class="fa-solid fa-circle fa-xs"></i>Starts in 2 days
+              </span>
+            </div>
+            <div
+              class="relative shadow-gray-300 shadow p-8 rounded-xl bg-white"
+            >
+              <div class="space-y-2">
+                <h3 class="text-lg font-semibold">Python</h3>
+                <p>
+                  📅 Batch starts:
+                  <span class="font-bold">August 13, 2026</span>
+                </p>
+                <div>
+                  <span class="font-semibold">Rs. 1,499 </span>
+                  <span class="line-through text-(--text) text-sm"
+                    >Rs. 12,500</span
+                  >
+                  <span class="bg-green-200 px-1 text-green-900">84% off</span>
+                </div>
+              </div>
+              <span
+                class="text-(--primary) font-semibold bg-(--primary)/20 rounded-full px-2 py-1 text-sm -translate-y-3 -translate-x-5 absolute top-0 right-0"
+              >
+                <i class="fa-solid fa-circle fa-xs"></i>Starts in 2 days
+              </span>
+            </div>
+            <div
+              class="relative shadow-gray-300 shadow p-8 rounded-xl bg-white"
+            >
+              <div class="space-y-2">
+                <h3 class="text-lg font-semibold">Digital Marketing</h3>
+                <p>
+                  📅 Batch starts:
+                  <span class="font-bold">August 13, 2026</span>
+                </p>
+                <div>
+                  <span class="font-semibold">Rs. 1,999 </span>
+                  <span class="line-through text-(--text) text-sm"
+                    >Rs. 12,500</span
+                  >
+                  <span class="bg-green-200 px-1 text-green-900">84% off</span>
+                </div>
+              </div>
+              <span
+                class="text-(--primary) font-semibold bg-(--primary)/20 rounded-full px-2 py-1 text-sm -translate-y-3 -translate-x-5 absolute top-0 right-0"
+              >
+                <i class="fa-solid fa-circle fa-xs"></i>Starts in 2 days
+              </span>
+            </div>
+            <div
+              class="relative shadow-gray-300 shadow p-8 rounded-xl bg-white"
+            >
+              <div class="space-y-2">
+                <h3 class="text-lg font-semibold">Machine Learning</h3>
+                <p>
+                  📅 Batch starts:
+                  <span class="font-bold">August 13, 2026</span>
+                </p>
+                <div>
+                  <span class="font-semibold">Rs. 2,999 </span>
+                  <span class="line-through text-(--text) text-sm"
+                    >Rs. 12,500</span
+                  >
+                  <span class="bg-green-200 px-1 text-green-900">84% off</span>
+                </div>
+              </div>
+              <span
+                class="text-(--primary) font-semibold bg-(--primary)/20 rounded-full px-2 py-1 text-sm -translate-y-3 -translate-x-5 absolute top-0 right-0"
+              >
+                <i class="fa-solid fa-circle fa-xs"></i>Starts in 2 days
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-4 bg-white">
+      <div class="container">
+        <div class="text-center space-y-3">
+          <span
+            class="inline-block mt-5 text-(--primary) bg-(--primary)/20 px-3 py-1 font-semibold rounded-full"
+            >Quality Education Without Financial Barriers</span
+          >
+          <h2 class="text-4xl font-semibold">
+            Learn the Skills Employers Want
+          </h2>
+          <p class="italic text-(--text)">
+            Master in-demand technical skills, work on real-world projects, and
+            gain practical experience that companies are actively looking for in
+            today’s job market.
+          </p>
+        </div>
+        <div class="grid grid-cols-3 gap-5 pt-10">
+          <div class="shadow-2xl  rounded-xl">
+            <div class="relative overflow-hidden rounded-t-xl">
+              <img
+                class="hover:scale-105 duration-300"
+                src="https://codeit.com.np/storage/course-featured/01KN8WTV8YVVKN1SNYFTJ0S8E9.webp"
+                alt="Git and Github"
+              />
+              <small
+                class="absolute top-2 rounded-l-full pl-2 text-white font-semibold right-0 bg-(--primary) py-1"
+                ><i class="fa-solid fa-clock"></i>Starts Tomorrow</small
+              >
+              <small
+                class="absolute top-2 left-2 bg-white px-3 rounded-full py-1"
+                ><i class="fa-solid fa-star"></i>5.0</small
+              >
+            </div>
+            <div class="space-y-3 px-5 pt-5">
+              <h3 class="font-bold text-xl">Git & Github Training</h3>
+              <p class="text-sm text-gray-500">
+                Git & GitHub Course – Learn Version Control & Collaborative
+                Coding Best Practices
+              </p>
+            </div>
+            <p class="text-xl font-bold px-5 pt-5">Rs. 500</p>
+            <div class="flex items-center justify-between p-5">
+              <div>
+                <span class="line-through text-(--text)">Rs 2500</span>
+                <span class="bg-green-200 text-green-900 font-semibold"
+                  >80% off</span
+                >
+              </div>
+              <a
+                class="bg-(--primary)/10 text-(--primary) font-semibold px-2 text-sm py-1 rounded-xl"
+                href=""
+                >Cirriculum <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+          <div class="shadow-2xl  rounded-xl">
+            <div class="relative overflow-hidden rounded-t-xl">
+              <img
+                class="hover:scale-105 duration-300"
+                src="https://codeit.com.np/storage/course-featured/01KN8WTV8YVVKN1SNYFTJ0S8E9.webp"
+                alt="Git and Github"
+              />
+              <small
+                class="absolute top-2 rounded-l-full pl-2 text-white font-semibold right-0 bg-(--primary) py-1"
+                ><i class="fa-solid fa-clock"></i>Starts Tomorrow</small
+              >
+              <small
+                class="absolute top-2 left-2 bg-white px-3 rounded-full py-1"
+                ><i class="fa-solid fa-star"></i>5.0</small
+              >
+            </div>
+            <div class="space-y-3 px-5 pt-5">
+              <h3 class="font-bold text-xl">Git & Github Training</h3>
+              <p class="text-sm text-gray-500">
+                Git & GitHub Course – Learn Version Control & Collaborative
+                Coding Best Practices
+              </p>
+            </div>
+            <p class="text-xl font-bold px-5 pt-5">Rs. 500</p>
+            <div class="flex items-center justify-between p-5">
+              <div>
+                <span class="line-through text-(--text)">Rs 2500</span>
+                <span class="bg-green-200 text-green-900 font-semibold"
+                  >80% off</span
+                >
+              </div>
+              <a
+                class="bg-(--primary)/10 text-(--primary) font-semibold px-2 text-sm py-1 rounded-xl"
+                href=""
+                >Cirriculum <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+          <div class="shadow-2xl  rounded-xl">
+            <div class="relative overflow-hidden rounded-t-xl">
+              <img
+                class="hover:scale-105 duration-300"
+                src="https://codeit.com.np/storage/course-featured/01KN8WTV8YVVKN1SNYFTJ0S8E9.webp"
+                alt="Git and Github"
+              />
+              <small
+                class="absolute top-2 rounded-l-full pl-2 text-white font-semibold right-0 bg-(--primary) py-1"
+                ><i class="fa-solid fa-clock"></i>Starts Tomorrow</small
+              >
+              <small
+                class="absolute top-2 left-2 bg-white px-3 rounded-full py-1"
+                ><i class="fa-solid fa-star"></i>5.0</small
+              >
+            </div>
+            <div class="space-y-3 px-5 pt-5">
+              <h3 class="font-bold text-xl">Git & Github Training</h3>
+              <p class="text-sm text-gray-500">
+                Git & GitHub Course – Learn Version Control & Collaborative
+                Coding Best Practices
+              </p>
+            </div>
+            <p class="text-xl font-bold px-5 pt-5">Rs. 500</p>
+            <div class="flex items-center justify-between p-5">
+              <div>
+                <span class="line-through text-(--text)">Rs 2500</span>
+                <span class="bg-green-200 text-green-900 font-semibold"
+                  >80% off</span
+                >
+              </div>
+              <a
+                class="bg-(--primary)/10 text-(--primary) font-semibold px-2 text-sm py-1 rounded-xl"
+                href=""
+                >Cirriculum <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+          <div class="shadow-2xl  rounded-xl">
+            <div class="relative overflow-hidden rounded-t-xl">
+              <img
+                class="hover:scale-105 duration-300"
+                src="https://codeit.com.np/storage/course-featured/01KN8WTV8YVVKN1SNYFTJ0S8E9.webp"
+                alt="Git and Github"
+              />
+              <small
+                class="absolute top-2 rounded-l-full pl-2 text-white font-semibold right-0 bg-(--primary) py-1"
+                ><i class="fa-solid fa-clock"></i>Starts Tomorrow</small
+              >
+              <small
+                class="absolute top-2 left-2 bg-white px-3 rounded-full py-1"
+                ><i class="fa-solid fa-star"></i>5.0</small
+              >
+            </div>
+            <div class="space-y-3 px-5 pt-5">
+              <h3 class="font-bold text-xl">Git & Github Training</h3>
+              <p class="text-sm text-gray-500">
+                Git & GitHub Course – Learn Version Control & Collaborative
+                Coding Best Practices
+              </p>
+            </div>
+            <p class="text-xl font-bold px-5 pt-5">Rs. 500</p>
+            <div class="flex items-center justify-between p-5">
+              <div>
+                <span class="line-through text-(--text)">Rs 2500</span>
+                <span class="bg-green-200 text-green-900 font-semibold"
+                  >80% off</span
+                >
+              </div>
+              <a
+                class="bg-(--primary)/10 text-(--primary) font-semibold px-2 text-sm py-1 rounded-xl"
+                href=""
+                >Cirriculum <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+          <div class="shadow-2xl  rounded-xl">
+            <div class="relative overflow-hidden rounded-t-xl">
+              <img
+                class="hover:scale-105 duration-300"
+                src="https://codeit.com.np/storage/course-featured/01KN8WTV8YVVKN1SNYFTJ0S8E9.webp"
+                alt="Git and Github"
+              />
+              <small
+                class="absolute top-2 rounded-l-full pl-2 text-white font-semibold right-0 bg-(--primary) py-1"
+                ><i class="fa-solid fa-clock"></i>Starts Tomorrow</small
+              >
+              <small
+                class="absolute top-2 left-2 bg-white px-3 rounded-full py-1"
+                ><i class="fa-solid fa-star"></i>5.0</small
+              >
+            </div>
+            <div class="space-y-3 px-5 pt-5">
+              <h3 class="font-bold text-xl">Git & Github Training</h3>
+              <p class="text-sm text-gray-500">
+                Git & GitHub Course – Learn Version Control & Collaborative
+                Coding Best Practices
+              </p>
+            </div>
+            <p class="text-xl font-bold px-5 pt-5">Rs. 500</p>
+            <div class="flex items-center justify-between p-5">
+              <div>
+                <span class="line-through text-(--text)">Rs 2500</span>
+                <span class="bg-green-200 text-green-900 font-semibold"
+                  >80% off</span
+                >
+              </div>
+              <a
+                class="bg-(--primary)/10 text-(--primary) font-semibold px-2 text-sm py-1 rounded-xl"
+                href=""
+                >Cirriculum <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-4 bg-linear-to-b from-(--bg-color) via-gray-50 to-white">
+        <div class="container">
+
+            <div class="flex flex-col lg:flex-row gap-16 items-start">
+
+                <div class="w-full lg:w-5/12 lg:sticky lg:top-10">
+                    <span class="inline-block px-4 py-1 rounded-full bg-[#dc4a2a]/10 text-[#dc4a2a] text-sm mb-4">
+                        Industry Leader
+                    </span>
+                    <h2 class="text-4xl md:text-5xl font-bold text-gray-900 leading-[1.1] mb-6">
+                        #1 <span class="text-transparent bg-clip-text bg-linear-to-r from-[#dc4a2a] to-[#ff7b5f]">IT
+                            Training
+                        </span> in Nepal with Internship
+                    </h2>
+                    <p class="text-gray-600 mb-8 text-lg">
+                        We don’t just teach coding — we help you build your career. From learning in class to working in
+                        a company, we guide you at every step.
+                    </p>
+
+                    <div class="relative rounded-[2rem] overflow-hidden group shadow-2xl">
+                        <img src="https://codeit.com.np/images/home.avif" alt="Tech training in Nepal" class="w-full aspect-[4/5] object-cover transition-transform duration-700 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-linear-to-t from-black/60 via-transparent to-transparent">
+                        </div>
+                        <div class="absolute bottom-6 left-6 right-6 p-4 backdrop-blur-md bg-white/10 rounded-xl border border-white/20">
+                            <p class="text-white font-medium text-center italic">"Start as a student, leave as a
+                                professional."</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-full lg:w-7/12 space-y-4">
+
+                    <div class="group bg-white p-6 rounded-2xl border border-gray-100 shadow-sm transition-all duration-300 hover:shadow-xl hover:border-[#dc4a2a]/30 hover:-translate-y-1">
+                        <div class="flex items-center gap-6">
+                            <div class="w-14 h-14 rounded-2xl bg-[#dc4a2a]/5 flex items-center justify-center group-hover:bg-[#dc4a2a] transition-colors duration-300">
+                                <span class="text-2xl font-bold text-[#dc4a2a] group-hover:text-white">01</span>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-900 mb-1">Professional IT Training</h3>
+                                <p class="text-gray-600 leading-relaxed">Learn real skills that companies need. Get
+                                    simple, step-by-step training from experienced experts so you can understand easily
+                                    and become job-ready</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="group bg-white p-6 rounded-2xl border border-gray-100 shadow-sm transition-all duration-300 hover:shadow-xl hover:border-[#dc4a2a]/30 hover:-translate-y-1">
+                        <div class="flex items-center gap-6">
+                            <div class="w-14 h-14 rounded-2xl bg-[#dc4a2a]/5 flex items-center justify-center group-hover:bg-[#dc4a2a] transition-colors duration-300">
+                                <span class="text-2xl font-bold text-[#dc4a2a] group-hover:text-white">02</span>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-900 mb-1">Project Work</h3>
+                                <p class="text-gray-600 leading-relaxed">Work on real projects with a team. Use the
+                                    same tools and simple working methods that companies use every day.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="group bg-white p-6 rounded-2xl border border-gray-100 shadow-sm transition-all duration-300 hover:shadow-xl hover:border-[#dc4a2a]/30 hover:-translate-y-1">
+                        <div class="flex items-center gap-6">
+                            <div class="w-14 h-14 rounded-2xl bg-[#dc4a2a]/5 flex items-center justify-center group-hover:bg-[#dc4a2a] transition-colors duration-300">
+                                <span class="text-2xl font-bold text-[#dc4a2a] group-hover:text-white">03</span>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-900 mb-1">100% Guaranteed Internship</h3>
+                                <p class="text-gray-600 leading-relaxed">After you complete the course, you will get a
+                                    guaranteed internship opportunity to gain real workplace experience.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="group bg-white p-6 rounded-2xl border border-gray-100 shadow-sm transition-all duration-300 hover:shadow-xl hover:border-[#dc4a2a]/30 hover:-translate-y-1">
+                        <div class="flex items-center gap-6">
+                            <div class="w-14 h-14 rounded-2xl bg-[#dc4a2a]/5 flex items-center justify-center group-hover:bg-[#dc4a2a] transition-colors duration-300">
+                                <span class="text-2xl font-bold text-[#dc4a2a] group-hover:text-white">04</span>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-900 mb-1">Interview Preparation</h3>
+                                <p class="text-gray-600 leading-relaxed">Get ready for job interviews by practicing
+                                    common technical questions and learning how to answer personal and behavior
+                                    questions with confidence.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="group bg-white p-6 rounded-2xl border border-gray-100 shadow-sm transition-all duration-300 hover:shadow-xl hover:border-[#dc4a2a]/30 hover:-translate-y-1">
+                        <div class="flex items-center gap-6">
+                            <div class="w-14 h-14 rounded-2xl bg-[#dc4a2a]/5 flex items-center justify-center group-hover:bg-[#dc4a2a] transition-colors duration-300">
+                                <span class="text-2xl font-bold text-[#dc4a2a] group-hover:text-white">05</span>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-900 mb-1">Post-Hiring Support</h3>
+                                <p class="text-gray-600 leading-relaxed">Even after you get a job, we will still
+                                    support you. You will get career advice, guidance, and help to connect with
+                                    professionals.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

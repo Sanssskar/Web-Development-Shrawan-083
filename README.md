@@ -124,3 +124,24 @@ CodeIt Header
 
 ***AOS***
 -> Animate on Scroll
+
+### JavaScript 
+- programming language ra scripting language
+- built by using C++
+- set of instructions given to the computer
+- EcmaScript -> javascript rulebook follow garney
+- Es6
+
+1. Variables 
+2. Data Types
+3. Operators
+4. Conditional Statement
+5. loop
+6. Function
+7. EcmaScript
+- Template literals
+- Spread operator , Rest operator
+- Object/ Array Destructuring
+- Arrow function
+
+8. DOM Manipulation
