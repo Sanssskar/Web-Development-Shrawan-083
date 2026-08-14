@@ -144,4 +144,8 @@ CodeIt Header
 - Object/ Array Destructuring
 - Arrow function
 
-8. DOM Manipulation
+8. DOM (Document Object Model) Manipulation
+- DOM represents HTML document as tree of objects
+- DOM manipulation is a process of using JS to dynamically change content, structure , styling of webpage
+
+9. Exception Handling
