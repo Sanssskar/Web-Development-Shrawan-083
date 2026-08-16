@@ -149,3 +149,15 @@ CodeIt Header
 - DOM manipulation is a process of using JS to dynamically change content, structure , styling of webpage
 
 9. Exception Handling
+
+### Today's Topic
+1. Synchronous
+- waits for the current task to finish before moving to the next task
+
+2. Aysnchoronous
+- starts a task and continue other task instead of waiting
+
+3. Callback
+4. Callback Hell
+5. Promises
+6. Aysnc Await
